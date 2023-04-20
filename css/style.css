@@ -224,6 +224,10 @@ input{
     align-items: center;
     justify-content: center;
     background: #FFFFFF !important;
+    scale: 1;
+}
+.icon:hover {
+    scale: 1.2;
 }
 
 
@@ -253,7 +257,7 @@ input{
 }
 
 .cat-item:hover div {
-    border-color: transparent;
+    border-color: black;
 }
 
 .cat-item div * {
@@ -261,7 +265,7 @@ input{
 }
 
 .cat-item:hover div * {
-    color: #FFFFFF !important;
+    color: #FFFFFF ;
 }
 
 
